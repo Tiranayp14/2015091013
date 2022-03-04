@@ -8,7 +8,7 @@ int main(){
 	printf("********************************************************************\n\n");
 	
 	for( i = 0; i < 5 ; i++){
-		printf("Input bilangan: ");
+		printf("Input 5 bilangan: ");
 		scanf("%d",&input[i]);
 	}
 	
@@ -23,7 +23,7 @@ int main(){
 			min = input[i];
 		}
 	}
-	printf("\n\nHasil: \n");
+	printf("\n\nOutput: \n");
 	printf("\t- Bilangan terbesar: %d\n", max);	
 	printf("\t- Bilangan terkecil: %d\n", min);
 	return 0;
